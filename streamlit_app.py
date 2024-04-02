@@ -26,7 +26,7 @@ with st.sidebar:
         st.image('mg.png')
         st.title(":sushi:健康マンゴー診断:doughnut:")
         st.subheader("葉の画像をアップロードすると、病気の種類と確率が表示されます。Resnetを転移学習させ、フロントエンドはStreamlitを使用しています。問題は病気の葉の画像がすぐに見つからないことです...")
-        st.subheader("Github: https://github.com/hayata1996/mangodetectkai")
+        st.subheader("Github: https://github.com/hayata1996/stmangoapp")
         st.subheader("トレーニングに使用した画像リンク: https://www.kaggle.com/datasets/aryashah2k/mango-leaf-disease-dataset?ref=blog.streamlit.io")
 
 
