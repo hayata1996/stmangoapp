@@ -25,7 +25,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 with st.sidebar:
         st.image('mg.png')
         st.title(":sushi:健康マンゴー診断:doughnut:")
-        st.subheader("葉の画像をアップロードすると、病気の種類と確率が表示されます。Resnetを転移学習させ、フロントエンドはStreamlitを使用しています。問題は病気の葉の画像がすぐに見つからないことです...")
+        st.subheader("葉の画像をアップロードすると、病気の種類と確率が表示されます。Resnetを転移学習させ、フロントエンドはStreamlitを使用しています。診断の候補は炭疽菌病、潰瘍病、虫食い、枯れ、虫コブ、うどんこ病、煤病で英名で診断されます")
         st.subheader("Github: https://github.com/hayata1996/stmangoapp")
         st.subheader("トレーニングに使用した画像リンク: https://www.kaggle.com/datasets/aryashah2k/mango-leaf-disease-dataset?ref=blog.streamlit.io")
 
@@ -45,7 +45,7 @@ def load_model():
 
 model = load_model()
 
-st.title("Mango Disease Detection    健康な葉の写真や全然関係のない写真をアップロードしてみてください:muscle:")
+st.title("Mango Disease Detection    マンゴーの葉でトレーニングしていますが、他の植物の健康な葉の写真や全然関係のない写真でも動くため気軽にアップロードしてみてください:muscle:")
 
 file = st.file_uploader("", type=["jpg", "png"])
 
