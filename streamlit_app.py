@@ -45,7 +45,7 @@ def load_model():
 
 model = load_model()
 
-st.title("Mango Disease Detection  健康な葉の写真や全然関係のない写真をアップロードしてみてください:muscle:")
+st.title("Mango Disease Detection    健康な葉の写真や全然関係のない写真をアップロードしてみてください:muscle:")
 
 file = st.file_uploader("", type=["jpg", "png"])
 
