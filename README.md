@@ -3,6 +3,10 @@
 使用した言語はpythonのみで、フロントエンドはStreamlitを使用しています。
 ローカル環境で試すにはDockerfile(準備中)を元にコンテナを作成するか、すでにこのデータ用に転移学習させたmodel.pthとstreamlit_app.pyをダウンロードすれば使用可能です。
 ＊リソースの関係でサンプルのmodel.pthは1epochしか学習していません。
+＊トレーニングに使用していない健康な葉のサンプル写真としてJPEGをリポジトリ内においてあります。
+
+##概要
+
 
 ## Training用　Dataset Link:
 https://www.kaggle.com/datasets/aryashah2k/mango-leaf-disease-dataset
