@@ -45,7 +45,7 @@ def load_model():
 
 model = load_model()
 
-st.title("Mango Disease Detection with Remedy Suggestion")
+st.title("Mango Disease Detection")
 
 file = st.file_uploader("", type=["jpg", "png"])
 
