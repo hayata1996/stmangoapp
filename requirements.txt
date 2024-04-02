@@ -1,0 +1,9 @@
+streamlit
+tensorflow
+Pillow
+numpy
+protobuf
+torchvision
+torch
+tqdm
+tensorflow==2.16.1
