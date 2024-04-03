@@ -4,6 +4,7 @@
 ローカル環境で試すにはDockerfile(準備中)を元にコンテナを作成するか、すでにこのデータ用に転移学習させたmodel.pthとstreamlit_app.pyをダウンロードすれば使用可能です。
 ＊サンプルのmodel.pthは1epochしか学習していません。
 ＊トレーニングに使用していない健康な葉のサンプル写真としてJPEGをリポジトリ内においてあります。
+*URLからアクセス:https://stmangoapp-jjyomexbto2kjvglciuoue.streamlit.app/
 
 ## 概要
 modelcustom.pyでresnet18を転移学習させたモデルをmodel.pthとして保存します。この際に学習に使用するデータはarchiveの名前で同じディレクトリ内にあると想定しています。
