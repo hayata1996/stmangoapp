@@ -23,3 +23,4 @@ https://www.kaggle.com/datasets/aryashah2k/mango-leaf-disease-dataset
 ## 参考資料:
 https://blog.streamlit.io/deep-learning-apps-for-image-processing-made-easy-a-step-by-step-guide/
 (https://github.com/MainakRepositor/MLDP/assets/64016811/7287fa8f-e3b0-4db2-aa62-15f700671129)
+https://qiita.com/kagami_t/items/60ee9d7f12ca0a593365
